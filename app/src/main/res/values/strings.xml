@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SuzanProject</string>
+    <string name="user">User name</string>
+    <string name="Pass">password</string>
+    <string name="signin">sign in</string>
+    <string name="signup">sign up</string>
+</resources>

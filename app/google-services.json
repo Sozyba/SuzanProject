@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "558099846608",
+    "firebase_url": "https://suzanproject.firebaseio.com",
+    "project_id": "suzanproject",
+    "storage_bucket": "suzanproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558099846608:android:1e39af0ea2937ae6",
+        "android_client_info": {
+          "package_name": "com.badran.suzan.suzanproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558099846608-02u678m1jehlkhkt16gp549ek9lis0ae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.badran.suzan.suzanproject",
+            "certificate_hash": "013f43c9a5d380c46de43c04644418dbe5d2a253"
+          }
+        },
+        {
+          "client_id": "558099846608-23t1ra4go92dihvbm16imbr65h0a4nel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwiY4boL3Q_4hRlfh_tDjlSyikylF3K_8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558099846608-23t1ra4go92dihvbm16imbr65h0a4nel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
