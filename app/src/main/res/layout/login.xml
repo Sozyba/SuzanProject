@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.badran.suzan.suzanproject.SignUp">
+
+    <TextView
+        android:id="@+id/etUser"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:text="@string/user"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/etPassword"
+        android:layout_width="121dp"
+        android:layout_height="47dp"
+        android:text="@string/Pass"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/etSignin"
+        android:layout_width="115dp"
+        android:layout_height="44dp"
+        android:text="@string/signin"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/bttnSignup"
+        android:layout_width="96dp"
+        android:layout_height="50dp"
+        android:text="@string/signup"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <Button
+        android:id="@+id/btnForget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgetmypass"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+</LinearLayout>

@@ -4,38 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.badran.suzan.suzanproject.signUpActivity">
+    tools:context="com.badran.suzan.suzanproject.SignUp">
 
     <TextView
-        android:id="@+id/etUser"
-        android:layout_width="120dp"
-        android:layout_height="46dp"
-        android:text="@string/user"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="15dp" />
+        android:id="@+id/etName"
+        android:layout_width="60dp"
+        android:layout_height="19dp"
+        android:text="@string/name"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="84dp"
+        tools:text="@string/name" />
+
+    <TextView
+        android:id="@+id/etLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="129dp"
+        tools:text="@string/last" />
 
     <TextView
         android:id="@+id/etPassword"
-        android:layout_width="121dp"
-        android:layout_height="47dp"
-        android:text="@string/Pass"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="90dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="172dp"
+        tools:text="@string/password1" />
 
     <TextView
-        android:id="@+id/etSignin"
-        android:layout_width="115dp"
-        android:layout_height="44dp"
-        android:text="@string/signin"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="152dp" />
+        android:id="@+id/etRePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="218dp"
+        tools:text="@string/repassword" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="268dp"
+        tools:text="@string/email" />
 
     <Button
-        android:id="@+id/bttnSignup"
-        android:layout_width="96dp"
-        android:layout_height="50dp"
-        android:text="@string/signup"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="274dp" />
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="370dp"
+        tools:text="@string/save" />
 
 </android.support.constraint.ConstraintLayout>
